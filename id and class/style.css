@@ -1,0 +1,27 @@
+.school {
+    background-color: rgb(193, 197, 255);
+}
+
+#harry {
+    background-color: yellow;
+}
+
+#sumon {
+    background-color: lightgreen;
+}
+
+#ria {
+    background-color: pink;
+}
+#harryh{
+    border: 2px solid black;
+    color: brown;
+}
+#riah{
+    border: 2px solid green;
+    color: darkblue;
+}
+#sumonh{
+    border: 2px solid red ;
+    color: black;
+}
