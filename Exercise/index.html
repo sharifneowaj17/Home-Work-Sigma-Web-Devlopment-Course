@@ -1,13 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Create A website Use Video, Audio, Id, Class, inline, block, form, input, image, list, table, bookmark manager, semantic etc that i learn from 10 videos in Sigma Web Development Course playlist. -->
-     
+    <header>
+        <nav>
+            <Ul>
+                <li>Audio</li>
+                <li>Video</li>
+                <li>Image</li>
+            </Ul>
+        </nav>
+    </header>
+    <main>
+        <H1>Video</H1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Video</th>
+                    <th class="title">Title</th>
+                    <th>Full video Link</th>
+                    <th>Course Status</th>
+                    <th>Proof</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 1 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #1 Installing VS Code & How Websites Work | Sigma Web Development Course
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=tVzUXW6siu0&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=1&pp=iAQB">Tutorial
+                            #1</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus1" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus1" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                    <td><a target="_blank"
+                            href="https://github.com/sharifneowaj17/Home-Work-Sigma-Web-Devlopment-Course/tree/main/%231%20Bookmark%20Manager">Bookmark
+                            Manager</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 2 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #2 Your First HTML Website ｜ Sigma Web Development Course
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=kJEsTjH5mVg&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=2&t=887s&pp=iAQB">Tutorial
+                            #2</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus2" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus2" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                    <td rowspan="4"><a target="_blank"
+                            href="https://github.com/sharifneowaj17/Home-Work-Sigma-Web-Devlopment-Course/tree/main/%235%20Image%20List%20Table">Heading,
+                            Image, Link, Paragraphs, Table, Lists, and Division tags </a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 3 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #3 Basic Structure of an HTML Website ｜ Sigma Web Development Course
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=BGeDBfCIqas&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=3&pp=iAQB">Tutorial
+                            #3</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus3" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus3" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 4 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #4 Heading, Paragraphs and Links ｜ Sigma Web Development Course
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=nXba2-mgn1k&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=4&pp=iAQB">Tutorial
+                            #4</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus4" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus4" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 5 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #5 Image, Lists, and Tables in HTML ｜ Sigma Web Development Course
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=1BsVhumGlNc&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=5&pp=iAQB">Tutorial
+                            #5</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus5" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus5" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 6 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #6 SEO and Core Web Vitals in HTML ｜ Sigma Web Development Course
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=CyRlWlaJnTY&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=6&pp=iAQB">Tutorial
+                            #6</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus6" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus6" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 7 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #7 Forms and input tags in HTML ｜ Sigma Web Development Course
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=tLBlhp0SA_0&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=7&pp=iAQB">Tutorial
+                            #7</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus6" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus6" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://github.com/sharifneowaj17/Home-Work-Sigma-Web-Devlopment-Course/tree/main/%237%20Form%20Input">Form
+                            Input Tag</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 8 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #8 Inline & Block Elements in HTML ｜ Sigma Web Development Course
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=vnnlUCLfn6I&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=8&pp=iAQB">Tutorial
+                            #8</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus6" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus6" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://github.com/sharifneowaj17/Home-Work-Sigma-Web-Devlopment-Course/tree/main/%238%20inline%20and%20block%20elements">Inline
+                            And Block Elements</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 9 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #9 Id & Classes in HTML ｜ Sigma Web Development Course
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=vlAWzsGd-Yk&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=9&pp=iAQB">Tutorial
+                            #9</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus6" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus6" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://github.com/sharifneowaj17/Home-Work-Sigma-Web-Devlopment-Course/tree/main/%239%20id%20and%20class">Id
+                            And Class</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 10 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #10 Video, Audio & Media in HTML ｜ Sigma Web Development Course
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=XZwBNDGuWGU&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=10&pp=iAQB">Tutorial
+                            #10</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus6" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus6" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://github.com/sharifneowaj17/Home-Work-Sigma-Web-Devlopment-Course/tree/main/%2310%20video%20audio%20svg">Video
+                            Audio Media</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 11 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #11 Semantic Tags in HTML ｜ Sigma Web Development Course
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=fhoDRB53DwY&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=11&pp=iAQB">Tutorial
+                            #11</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus6" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus6" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://github.com/sharifneowaj17/Home-Work-Sigma-Web-Devlopment-Course/tree/main/%23%2011Semantic">Semantic
+                            Tags</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <video height="200" c muted autoplay preload="auto" src="Tutorial 12 30sec.mp4"></video>
+                    </td>
+
+                    <td Class="title">
+                        Tutorial #12 Exercise 1 - Pure HTML Media Player ｜ Sigma Web Development Course
+                    <td>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=5xFRg_TzlAg&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=12&pp=iAQB">Tutorial
+                            #12</a>
+                    </td>
+                    <td>
+                        <div id="coursedone">
+                            <input type="radio" name="CourseStatus6" id="done" value="yes">
+                            <label for="Done">Done</label>
+                        </div>
+                        <div id="radiopending">
+                            <input type="radio" name="CourseStatus6" id="pending" value="yes">
+                            <label for="pending">Pending</label>
+                        </div>
+                    </td>
+                    <td>
+                        <a target="_blank"
+                            href="https://github.com/sharifneowaj17/Home-Work-Sigma-Web-Devlopment-Course/tree/main/Exercise">Exercise</a>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </main>
+    <section>
+        <article>
+            <h1>Audio Tutorial</h1>
+            <dl>
+                <dt>Tutorial 1</dt>
+                <dd>Installing VS Code & How Websites Work | Sigma Web Development Course
+                </dd>
+                <div><audio controls loop autoplay src="tutorial 1.mp3"> Tutorial 1</audio></div>
+            </dl>
+            <ul>
+                <li>
+                    Tutorial 2
+                </li>
+                <li>Your First HTML Website ｜ Sigma Web Development Course</li>
+                <div><audio controls muted loop autoplay src="tutorial 2.mp3"> Tutorial 2</audio></div>
+                
+            </ul>
+            <p><a href="https://www.youtube.com/watch?v=BGeDBfCIqas&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=3&pp=iAQB">Tutorial 3</a>
+            <audio controls loop autoplay muted src="tutorial 3.mp3"></audio></p>
+             
+            <div>
+                <form action="post"></form>
+                <label for="tutorial4"><a href="https://www.youtube.com/watch?v=nXba2-mgn1k&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=4&pp=iAQB">Tutorial 4</a></label>
+                <input type="url" name="tutorial4" id="tutorial4" placeholder="Enter Tutorial #4 Url">
+                <input type="button" value="Go">
+            </div>
+            <div id="Tutorial5mp3" class="title">
+                <p><a href="https://www.youtube.com/watch?v=1BsVhumGlNc&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=5&pp=iAQB">Tutorial 5</a></p>
+                <audio controls src="tutorial 5.mp3">Tutorial 5</audio>
+            </div>
+            <span><a href="https://www.youtube.com/watch?v=CyRlWlaJnTY&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=6&pp=iAQB">Tutorial 6</a>
+                <div><audio controls src="tutorial 6.mp3">Tutorial 6</audio></div>
+            </span>
+        </article>
+    </section>
     
+    <Footer>
+        &copy; Home Work | Sigma Web Development Course | CodeWithHarry
+    </Footer>
+
+
+
+
 </body>
+
 </html>

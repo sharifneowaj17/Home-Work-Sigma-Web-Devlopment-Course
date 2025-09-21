@@ -1,0 +1,22 @@
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid blue;
+}
+.title{
+    background-color: lightblue;
+    color: gray;
+}
+#radiopending{
+    color: orange;
+}
+#coursedone{
+    color: green;
+}
+#Tutorial5mp3{
+    border: 1px solid black;
+}
+span{
+    background-color: bisque;
+}
